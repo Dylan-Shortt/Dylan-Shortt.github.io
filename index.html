@@ -1,73 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Dylan Shortt | Software Developer</title>
-    <style>
-        :root {
-            --primary-color: #0a192f;
-            --secondary-color: #64ffda;
-            --text-color: #ccd6f6;
-            --accent-color: #8892b0;
-            --font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        }
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dylan Shortt | CV</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 40px 20px;
+      background-color: white;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    header h1 {
+      font-size: 2.5em;
+      color: #222;
+    }
+    nav ul {
+      display: flex;
+      justify-content: center;
+      list-style: none;
+      margin-top: 10px;
+    }
+    nav ul li {
+      margin: 0 15px;
+    }
+    nav ul li a {
+      text-decoration: none;
+      color: #007acc;
+      font-weight: bold;
+    }
+    section {
+      margin-bottom: 30px;
+    }
+    section h2 {
+      border-bottom: 2px solid #007acc;
+      margin-bottom: 10px;
+      padding-bottom: 5px;
+      color: #007acc;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 0.9em;
+      color: #666;
+    }
+    a {
+      color: #007acc;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Dylan Shortt</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
 
-        body {
-            margin: 0;
-            background-color: var(--primary-color);
-            color: var(--text-color);
-            font-family: var(--font);
-            line-height: 1.6;
-        }
+    <section id="about">
+      <h2>About Me</h2>
+      <p>Hello! I'm Dylan Shortt, a tech enthusiast and aspiring developer. I’m passionate about software development, cybersecurity, and building useful digital tools.</p>
+    </section>
 
-        .container {
-            max-width: 900px;
-            margin: auto;
-            padding: 20px;
-        }
+    <section id="projects">
+      <h2>Projects</h2>
+      <ul>
+        <li><strong>EventEase:</strong> A venue and event booking web app using ASP.NET MVC and SQL Server.</li>
+        <li><strong>CyberBot:</strong> A chatbot that educates users about cybersecurity threats.</li>
+        <li><strong>Portfolio Website:</strong> A personal site showcasing my skills and work.</li>
+      </ul>
+    </section>
 
-        header {
-            text-align: center;
-            margin-bottom: 40px;
-        }
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>Languages: C#, JavaScript, HTML, CSS, SQL</li>
+        <li>Frameworks: ASP.NET Core, Entity Framework</li>
+        <li>Tools: Visual Studio, Git, Azure</li>
+      </ul>
+    </section>
 
-        header h1 {
-            font-size: 2.8em;
-            margin: 0;
-        }
+    <section id="contact">
+      <h2>Contact</h2>
+      <ul>
+        <li>Email: <a href="mailto:dylan.shortt@example.com">dylan.shortt@example.com</a></li>
+        <li>LinkedIn: <a href="https://www.linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a></li>
+        <li>GitHub: <a href="https://github.com/yourprofile" target="_blank">github.com/yourprofile</a></li>
+      </ul>
+    </section>
 
-        header p {
-            color: var(--accent-color);
-            font-size: 1.1em;
-        }
-
-        nav {
-            margin-top: 20px;
-        }
-
-        nav a {
-            color: var(--secondary-color);
-            text-decoration: none;
-            margin: 0 15px;
-            font-weight: bold;
-        }
-
-        nav a:hover {
-            text-decoration: underline;
-        }
-
-        section {
-            margin-bottom: 40px;
-        }
-
-        section h2 {
-            border-bottom: 2px solid var(--secondary-color);
-            padding-bottom: 5px;
-            margin-bottom: 15px;
-            font-size: 1.8em;
-        }
-
-        ul {
-            padding-left: 20
-```
+    <footer>
+      <p>&copy; 2025 Dylan Shortt. All rights reserved.</p>
+    </footer>
+  </div>
+</body>
+</html>
